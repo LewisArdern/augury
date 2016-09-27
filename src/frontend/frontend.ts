@@ -377,7 +377,6 @@ class FrontendModule {}
 
 declare const PRODUCTION: boolean;
 if (PRODUCTION) {
-  enableProdMode();
 }
 
 platformBrowserDynamic().bootstrapModule(FrontendModule);
